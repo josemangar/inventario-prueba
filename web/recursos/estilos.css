@@ -1,0 +1,120 @@
+/* --- ESTILO GENERAL --- */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #F2F2F2;
+  color: #111;
+}
+
+/* --- CONTENEDOR PRINCIPAL --- */
+.contenedor {
+  display: flex;
+  height: 100vh;
+}
+
+/* --- MENÚ LATERAL --- */
+.menu {
+  width: 240px;
+  background-color: #4B0000; /* tinto oscuro */
+  color: white;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.menu h3 {
+  margin-top: 0;
+  font-size: 1.4em;
+  color: #FFFFFF;
+  border-bottom: 2px solid #B22222;
+  padding-bottom: 8px;
+}
+
+.menu button, .menu a {
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+}
+
+.menu button:hover, .menu a:hover {
+  background-color: #B22222;
+  color: white;
+}
+
+/* --- CONTENIDO PRINCIPAL --- */
+.contenido {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background: #F2F2F2;
+}
+
+/* --- FORMULARIOS --- */
+.formulario {
+  display: none;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #FFFFFF;
+  border: 1px solid #D0D0D0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+h3 {
+  color: #4B0000;
+  margin-top: 0;
+}
+
+/* --- TABLAS --- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background: white;
+  margin-top: 10px;
+  border: 1px solid #D0D0D0;
+}
+
+th {
+  background: #4B0000;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  padding: 8px;
+  border-top: 1px solid #D0D0D0;
+}
+
+/* --- CAMPOS DE ENTRADA --- */
+input[type="text"], input[type="number"], input[type="date"], select {
+  width: calc(100% - 12px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #AAA;
+  border-radius: 4px;
+  background: #FAFAFA;
+}
+
+/* --- BOTONES --- */
+input[type="submit"] {
+  background: #800000;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+input[type="submit"]:hover {
+  background: #5E1010;
+}
