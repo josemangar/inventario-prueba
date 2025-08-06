@@ -4,6 +4,9 @@
 List<Producto> lista = (List<Producto>) request.getAttribute("productos");
 %>
 <!DOCTYPE html>
+
+
+
 <html>
 <head>
     <title>Inventario</title>
@@ -33,7 +36,7 @@ List<Producto> lista = (List<Producto>) request.getAttribute("productos");
             }
         } else {
         %>
-        <tr><td colspan="7">No hay productos registrados.</td></tr>
+        <tr><td colspan="7">No se tienen productos registrados.</td></tr>
         <%
         }
         %>

@@ -8,18 +8,21 @@ if (u == null) {
 }
 %>
 <!DOCTYPE html>
+
+
+
 <html>
 <head><title>Agregar producto</title></head>
 <body>
     <h2>Nuevo producto</h2>
     <form method="post" action="agregarProducto">
-        Código: <input type="text" name="codigo"><br>
+        Codigo: <input type="text" name="codigo"><br>
         Nombre: <input type="text" name="nombre"><br>
         Cantidad: <input type="number" name="cantidad"><br>
         Precio: <input type="number" step="0.01" name="precio"><br>
-        Categoría: <input type="text" name="categoria"><br>
+        Categoria: <input type="text" name="categoria"><br>
         Marca: <input type="text" name="marca"><br>
-        Fecha de reposición: <input type="date" name="fecha"><br>
+        Fecha de reposicion: <input type="date" name="fecha"><br>
         <input type="submit" value="Guardar">
     </form>
     <br><a href="inicio.jsp">Volver</a>
