@@ -12,7 +12,7 @@ List<Producto> lista = (List<Producto>) request.getAttribute("productos");
     <title>Inventario</title>
 </head>
 <body>
-    <h2>Listado de Productos</h2>
+    <h2>Listado </h2>
 
     <table border="1">
         <tr>
