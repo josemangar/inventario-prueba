@@ -1,4 +1,4 @@
-name: Java CI with Ant
+name: Prueba y Compila
 
 on:
   push:
@@ -7,17 +7,18 @@ on:
     branches: [ develop, master ]
 
 jobs:
-  build:
+  compilar-y-probar:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - name: Paso 1: traer el código
+      uses: actions/checkout@v3
 
-    - name: Set up JDK 21
+    - name: Paso 2: instalar Java
       uses: actions/setup-java@v3
       with:
-        distribution: 'adopt'
+        distribution: 'temurin'
         java-version: 21
 
-    - name: Build and run tests with Ant
-      run: ant -noinput -Dlibs.CopyLibs.classpath= test
+    - name: Paso 3: compilar y probar
+      run: ant -noinput -buildfile build.xml test
