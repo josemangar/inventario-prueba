@@ -11,8 +11,14 @@ if (u == null) {
 
 
 
+
+
+
+
+
+
 <html>
-<head><title>Agregar producto</title></head>
+<head><title>Agrega producto</title></head>
 <body>
     <h2>Nuevo producto</h2>
     <form method="post" action="agregarProducto">

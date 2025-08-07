@@ -7,6 +7,8 @@ List<Producto> lista = (List<Producto>) request.getAttribute("productos");
 
 
 
+
+
 <html>
 <head>
     <title>Inventario</title>
@@ -16,8 +18,8 @@ List<Producto> lista = (List<Producto>) request.getAttribute("productos");
 
     <table border="1">
         <tr>
-            <th>Código</th><th>Nombre</th><th>Cantidad</th>
-            <th>Precio</th><th>Categoría</th><th>Marca</th><th>Reposición</th>
+            <th>Codigo</th><th>Nombre</th><th>Cantidad</th>
+            <th>Precio</th><th>Categoria</th><th>Marca</th><th>Reposicion</th>
         </tr>
         <%
         if (lista != null) {

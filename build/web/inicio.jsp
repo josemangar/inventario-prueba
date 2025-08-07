@@ -13,6 +13,9 @@ if (lista == null) {
     lista = logica.ProductoDAO.obtenerTodos();
 }
 %>
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -72,7 +75,8 @@ if (lista == null) {
         
         
         
-        <!-- Formulario para Agregar -->
+        
+        <!--Formulario para Agregar -->
         <div id="form_agregar" class="formulario">
             <h3>Agregar producto</h3>
             <form method="post" action="agregarProducto">
@@ -90,7 +94,8 @@ if (lista == null) {
         
         
         
-        <!-- Formulario para Movimiento -->
+        
+        <!--Formulario para Movimiento -->
         <div id="form_mov" class="formulario">
             <h3>Registrar entrada/salida</h3>
             <form method="post" action="movimiento">
@@ -107,7 +112,8 @@ if (lista == null) {
         
         
         
-        <!-- Formulario para Editar -->
+        
+        <!--Formulario para Editar -->
         <div id="form_editar" class="formulario">
             <h3>Editar producto</h3>
             <form method="post" action="editarProducto">
@@ -125,7 +131,8 @@ if (lista == null) {
         
         
         
-        <!-- Formulario para Eliminar -->
+        
+        <!--formulario para Eliminar -->
         <div id="form_eliminar" class="formulario">
             <h3>Eliminar producto</h3>
             <form method="post" action="eliminarProducto">
@@ -137,7 +144,8 @@ if (lista == null) {
         
         
         
-        <!-- Reportes -->
+        
+        <!--Reportes -->
         <div id="form_reportes" class="formulario">
             <h3>Productos con bajo stock (? 5)</h3>
             <table>
@@ -158,7 +166,8 @@ if (lista == null) {
             
             
             
-        <!-- Para historial -->
+            
+        <!--historial -->
         <div id="form_historial" class="formulario">
             <h3>Historial de movimientos</h3>
             <table>
