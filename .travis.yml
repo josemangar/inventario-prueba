@@ -3,6 +3,7 @@ jdk:
   - openjdk21
 
 script:
-  - echo "Ejecutando pruebas de ejemplo"
-  - javac src/test/PruebaTravis.java
-  - java -cp src/test PruebaTravis
+  - ant -noinput -buildfile build.xml
+
+notifications:
+  email: false
