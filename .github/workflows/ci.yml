@@ -20,4 +20,4 @@ jobs:
         java-version: 21
 
     - name: Build and run tests with Ant
-      run: ant -noinput test
+      run: ant -noinput -Dlibs.CopyLibs.classpath= test
