@@ -1,4 +1,4 @@
-name: Java CI
+name: Java CI with Ant
 
 on:
   push:
@@ -19,10 +19,5 @@ jobs:
         distribution: 'adopt'
         java-version: 21
 
-    - name: Build with Ant
-      run: ant -noinput -buildfile build.xml
-
-    - name: Smoke test
-      run: |
-        javac src/test/PruebaTravis.java
-        java -cp src/test PruebaTravis
+    - name: Build and run tests with Ant
+      run: ant -noinput test
