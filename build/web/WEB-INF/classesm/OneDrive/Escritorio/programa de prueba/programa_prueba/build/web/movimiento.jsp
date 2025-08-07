@@ -11,6 +11,8 @@ if (u == null) {
 
 
 
+
+
 <html>
 <head><title>Movimiento</title></head>
 <body>
@@ -20,8 +22,8 @@ if (u == null) {
         Cantidad: <input type="number" name="cantidad"><br>
         Tipo:
         <select name="tipo">
-            <option value="entrada">Entrada</option>
-            <option value="salida">Salida</option>
+            <option value="entrada"> Entrada</option>
+            <option value="salida"> Salida</option>
         </select><br>
         <input type="submit" value="Actualizar">
     </form>
