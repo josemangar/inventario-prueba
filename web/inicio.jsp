@@ -68,7 +68,11 @@ if (lista == null) {
     </aside>
 
     <main class="contenido">
-        <!-- Formulario: Agregar -->
+        
+        
+        
+        
+        <!-- Formulario para Agregar -->
         <div id="form_agregar" class="formulario">
             <h3>Agregar producto</h3>
             <form method="post" action="agregarProducto">
@@ -83,7 +87,10 @@ if (lista == null) {
             </form>
         </div>
 
-        <!-- Formulario: Movimiento -->
+        
+        
+        
+        <!-- Formulario para Movimiento -->
         <div id="form_mov" class="formulario">
             <h3>Registrar entrada/salida</h3>
             <form method="post" action="movimiento">
@@ -97,7 +104,10 @@ if (lista == null) {
             </form>
         </div>
 
-        <!-- Formulario: Editar -->
+        
+        
+        
+        <!-- Formulario para Editar -->
         <div id="form_editar" class="formulario">
             <h3>Editar producto</h3>
             <form method="post" action="editarProducto">
@@ -112,7 +122,10 @@ if (lista == null) {
             </form>
         </div>
 
-        <!-- Formulario: Eliminar -->
+        
+        
+        
+        <!-- Formulario para Eliminar -->
         <div id="form_eliminar" class="formulario">
             <h3>Eliminar producto</h3>
             <form method="post" action="eliminarProducto">
@@ -121,6 +134,9 @@ if (lista == null) {
             </form>
         </div>
 
+        
+        
+        
         <!-- Reportes -->
         <div id="form_reportes" class="formulario">
             <h3>Productos con bajo stock (? 5)</h3>
@@ -139,7 +155,10 @@ if (lista == null) {
             </table>
         </div>
 
-        <!-- Historial -->
+            
+            
+            
+        <!-- Para historial -->
         <div id="form_historial" class="formulario">
             <h3>Historial de movimientos</h3>
             <table>
@@ -155,7 +174,10 @@ if (lista == null) {
             </table>
         </div>
 
-        <!-- Tabla de inventario -->
+            
+            
+            
+        <!-- Tabla para inventario -->
         <h2>Inventario actual</h2>
         <table>
             <tr><th>Código</th><th>Nombre</th><th>Cantidad</th><th>Precio</th><th>Categoría</th><th>Marca</th><th>Reposición</th></tr>

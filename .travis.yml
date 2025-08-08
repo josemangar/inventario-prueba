@@ -1,0 +1,9 @@
+language: java
+jdk:
+  - openjdk21
+
+script:
+  - ant -noinput -buildfile build.xml
+
+notifications:
+  email: false

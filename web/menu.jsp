@@ -9,9 +9,12 @@ if (u == null) {
 String rol = u.getRol();
 %>
 <!DOCTYPE html>
+
+
+
 <html>
 <head>
-    <title>Menú principal</title>
+    <title>Menu principal</title>
     <style>
         .opcion {
             margin-bottom: 10px;
@@ -24,6 +27,9 @@ String rol = u.getRol();
         }
     </style>
 </head>
+
+
+
 <body>
     <h2>Bienvenido, <%= u.getNombre() %>!</h2>
     <p>Rol: <%= rol %></p>
@@ -39,6 +45,7 @@ String rol = u.getRol();
             <a class="desactivado">Agregar producto</a>
         <% } %>
     </div>
+    
 
     <div class="opcion">
         <% if ("admin".equals(rol)) { %>
@@ -47,6 +54,7 @@ String rol = u.getRol();
             <a class="desactivado">Editar producto</a>
         <% } %>
     </div>
+    
 
     <div class="opcion">
         <% if ("admin".equals(rol)) { %>
@@ -55,6 +63,7 @@ String rol = u.getRol();
             <a class="desactivado">Eliminar producto</a>
         <% } %>
     </div>
+    
 
     <div class="opcion">
         <% if ("empleado".equals(rol)) { %>
@@ -63,6 +72,7 @@ String rol = u.getRol();
             <a class="desactivado">Registrar entrada/salida</a>
         <% } %>
     </div>
+    
 
     <div class="opcion">
         <% if ("admin".equals(rol)) { %>
@@ -73,6 +83,6 @@ String rol = u.getRol();
     </div>
 
     <br>
-    <a href="login.jsp">Cerrar sesión</a>
+    <a href="login.jsp">Cerrar sesion</a>
 </body>
 </html>

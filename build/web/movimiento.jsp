@@ -8,12 +8,15 @@ if (u == null) {
 }
 %>
 <!DOCTYPE html>
+
+
+
 <html>
 <head><title>Movimiento</title></head>
 <body>
     <h2>Registrar entrada/salida</h2>
     <form method="post" action="movimiento">
-        Código del producto: <input type="text" name="codigo"><br>
+        Codigo del producto: <input type="text" name="codigo"><br>
         Cantidad: <input type="number" name="cantidad"><br>
         Tipo:
         <select name="tipo">
@@ -23,5 +26,8 @@ if (u == null) {
         <input type="submit" value="Actualizar">
     </form>
     <br><a href="inicio.jsp">Volver</a>
+    
+    
+    
 </body>
 </html>
