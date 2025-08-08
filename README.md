@@ -31,7 +31,7 @@ El sistema tiene una arquitectura básica de cliente-servidor con los siguientes
 - [Instalación] https://github.com/josemangar/inventario-prueba/wiki/Instalaci%C3%B3n
 - [Manual] https://github.com/josemangar/inventario-prueba/wiki/Manual
 - [Contribución y roadmap] https://github.com/josemangar/inventario-prueba/wiki/Contribuci%C3%B3n-y-Roadmap
-
+- [configuracion] https://github.com/josemangar/inventario-prueba/wiki/Configuracion:
 ---
 
 
